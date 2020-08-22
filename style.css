@@ -1,47 +1,66 @@
-.main{
+.wrapper{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vm;
+    width: 130vm;
     height: 100vh;
 }
-.main1{
-    background-color: rgb(21, 154, 243);
-    color: rgb(37, 37, 37);
-    margin: 10px;
-    margin-top: 20px;
-    padding: 10px;
-}
-.but{
-    background-color: aliceblue;
-    padding: 10px;
-}
-.que{
-    padding: 10px;
-}
-.quiz{
+.main{
     display: grid;
-    width: 80%;
+    width: 30%;
     height: 80%;
-    grid-template-rows: 20% auto;
+    grid-template-rows: 20%;
 }
-.head{
-    background-color: rgb(21, 154, 243);
-    padding: 10px;
+.name{
+    color: rgb(0, 110, 255);
+    font-size: 60px;
+    font-weight: bold;
+    font-family: calibri;
+}
+.in{
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 0 0 5px 1px black;
+    -moz-box-shadow: 0 0 5px 1px black;
+    box-shadow: 0 0 5px 1px black;
+    height: 300px;
+}
+.place{
+    width: 300px;
+    height: 35px;
+    margin-bottom: 20px;
+    border: 2px solid grey;
+    border-radius: 3px 3px 3px 3px;
+}
+.btn{
+    width: 30%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    margin: 5px 0;
+    opacity: 0.85;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 20px;
+    text-decoration: none; /* remove underline from anchors */
+    background-color: rgb(0, 110, 255);
     color: white;
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: bold;
 }
-.body{
-    background-color: aliceblue;
+h3{
+    font-family: calibri;
+    font-size: 25px;
 }
-.option{
-    list-style-type: none;
-    background-color: white;
-    width: 50%;
-    font-size: large;
-    margin: 10px;
-    padding: 10px;
+.btn:hover {
+    opacity: 1;
 }
-.active{
-    background-color: rgb(21, 154, 243);
-    color: white;
+@media only screen and (max-width: 700px){
+    .main{
+        display: grid;
+        width: 70%;
+        height: 80%;
+        grid-template-rows: 20%;
+    }
 }

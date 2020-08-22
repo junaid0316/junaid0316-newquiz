@@ -1,0 +1,47 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vm;
+    height: 100vh;
+}
+.main1{
+    background-color: rgb(21, 154, 243);
+    color: rgb(37, 37, 37);
+    margin: 10px;
+    margin-top: 20px;
+    padding: 10px;
+}
+.but{
+    background-color: aliceblue;
+    padding: 10px;
+}
+.que{
+    padding: 10px;
+}
+.quiz{
+    display: grid;
+    width: 80%;
+    height: 80%;
+    grid-template-rows: 20% auto;
+}
+.head{
+    background-color: rgb(21, 154, 243);
+    padding: 10px;
+    color: white;
+}
+.body{
+    background-color: aliceblue;
+}
+.option{
+    list-style-type: none;
+    background-color: white;
+    width: 50%;
+    font-size: large;
+    margin: 10px;
+    padding: 10px;
+}
+.active{
+    background-color: rgb(21, 154, 243);
+    color: white;
+}
